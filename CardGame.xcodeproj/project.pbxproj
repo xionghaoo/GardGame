@@ -12,6 +12,8 @@
 		B6F75CA122F3DC5D002AE7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F75C9F22F3DC5D002AE7AE /* Main.storyboard */; };
 		B6F75CA322F3DC5E002AE7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F75CA222F3DC5E002AE7AE /* Assets.xcassets */; };
 		B6F75CA622F3DC5E002AE7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F75CA422F3DC5E002AE7AE /* LaunchScreen.storyboard */; };
+		B6F75CAE22F41BDE002AE7AE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F75CAD22F41BDE002AE7AE /* Card.swift */; };
+		B6F75CB022F41CAF002AE7AE /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F75CAF22F41CAF002AE7AE /* CardGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B6F75CA222F3DC5E002AE7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F75CA522F3DC5E002AE7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F75CA722F3DC5E002AE7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F75CAD22F41BDE002AE7AE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B6F75CAF22F41CAF002AE7AE /* CardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B6F75CA222F3DC5E002AE7AE /* Assets.xcassets */,
 				B6F75CA422F3DC5E002AE7AE /* LaunchScreen.storyboard */,
 				B6F75CA722F3DC5E002AE7AE /* Info.plist */,
+				B6F75CAD22F41BDE002AE7AE /* Card.swift */,
+				B6F75CAF22F41CAF002AE7AE /* CardGame.swift */,
 			);
 			path = CardGame;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F75C9E22F3DC5D002AE7AE /* ViewController.swift in Sources */,
+				B6F75CB022F41CAF002AE7AE /* CardGame.swift in Sources */,
+				B6F75CAE22F41BDE002AE7AE /* Card.swift in Sources */,
 				B6F75C9C22F3DC5D002AE7AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
